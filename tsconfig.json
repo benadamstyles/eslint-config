@@ -1,5 +1,6 @@
 {
   "include": ["src"],
+  "exclude": ["src/flow.js"],
   "compilerOptions": {
     "moduleResolution": "node",
     "target": "es2020",
