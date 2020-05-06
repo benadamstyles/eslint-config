@@ -6,3 +6,6 @@ env:
 overrides:
   - files: ./tests/flow.js
     extends: ./src/flow.js
+
+  - files: ./tests/react.js
+    extends: ./src/react.js
