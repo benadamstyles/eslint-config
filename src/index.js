@@ -1,7 +1,7 @@
 /**
  * @type {import('eslint').Linter.Config}
  */
-module.exports = {
+const config = {
   extends: [
     'eslint:recommended',
     'prettier',
@@ -151,3 +151,5 @@ module.exports = {
     'babel/no-unused-expressions': 'error',
   },
 }
+
+module.exports = config
