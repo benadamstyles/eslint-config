@@ -9,7 +9,8 @@
   "author": "benadamstyles",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "typecheck": "tsc"
   },
   "devDependencies": {
     "@types/eslint": "^6.8.0",
