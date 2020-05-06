@@ -1,3 +1,5 @@
+// https://eslint.org/docs/developer-guide/shareable-configs
+
 /**
  * @type {import('eslint').Linter.Config}
  */

@@ -1,3 +1,5 @@
+// https://github.com/gajus/eslint-plugin-flowtype#readme
+
 /**
  * @type {import('eslint').Linter.Config}
  */
@@ -15,7 +17,6 @@ const config = {
     },
   },
 
-  // https://github.com/gajus/eslint-plugin-flowtype#readme
   rules: {
     'flowtype/boolean-style': 'error',
     'flowtype/define-flow-type': 'warn', // NOTE: marks flow types as used
