@@ -13,11 +13,15 @@ module.exports = {
 
   plugins: ['prettier', 'eslint-comments', 'jest', 'import', 'fp', 'babel'],
 
+  parserOptions: {
+    sourceType: 'module',
+  },
+
   // NOTE: only add rules which are not already included in extends
   rules: {
     // https://eslint.org/docs/rules/#possible-errors
     'no-template-curly-in-string': 'error',
-    'no-useless-backreference': 'error',
+    // 'no-useless-backreference': 'error', // TODO: enable in eslint v7
     'require-atomic-updates': 'error',
 
     // https://eslint.org/docs/rules/#best-practices
@@ -28,7 +32,7 @@ module.exports = {
     complexity: 'error',
     'consistent-return': 'error',
     'default-case': 'error',
-    'default-case-last': 'error',
+    // 'default-case-last': 'error', // TODO: enable in eslint v7
     'default-param-last': 'error',
     'dot-notation': 'error',
     eqeqeq: ['error', 'always', {null: 'ignore'}],
@@ -127,11 +131,10 @@ module.exports = {
     'import/no-self-import': 'error',
     'import/no-cycle': 'warn',
     'import/no-useless-path-segments': 'error',
-    'impot/no-deprecated': 'warn',
+    'import/no-deprecated': 'warn',
     'import/no-extraneous-dependencies': 'error',
     'import/no-mutable-exports': 'error',
     'import/no-unused-modules': 'error',
-    'import/unambiguous': 'error',
     'import/first': 'error',
     'import/no-duplicates': 'error',
     'import/extensions': 'error',
