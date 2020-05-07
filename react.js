@@ -27,6 +27,7 @@ const config = {
   },
 
   rules: {
+    // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
     'react/button-has-type': 'warn',
     'react/no-access-state-in-setstate': 'error',
     'react/no-array-index-key': 'error',
@@ -36,8 +37,10 @@ const config = {
     'react/no-typos': 'error',
     'react/no-unsafe': 'warn',
     'react/no-unused-state': 'warn',
+    'react/prop-types': ['error', {skipUndeclared: true}],
     'react/void-dom-elements-no-children': 'error',
 
+    // https://github.com/yannickcr/eslint-plugin-react#jsx-specific-rules
     'react/jsx-boolean-value': 'error',
     'react/jsx-curly-brace-presence': 'error',
     'react/jsx-fragments': 'error',
