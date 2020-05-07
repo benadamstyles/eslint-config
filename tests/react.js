@@ -6,3 +6,8 @@ export const Test = () => (
     <p>test</p>
   </>
 )
+
+export const TestA11y = () => (
+  // eslint-disable-next-line jsx-a11y/alt-text
+  <img src="https://example.com" />
+)
