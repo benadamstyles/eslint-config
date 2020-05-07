@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "files": [
-    "*.js"
+    "index.js",
+    "flow.js",
+    "react.js",
+    "react-native.js",
+    "typescript.js"
   ],
   "repository": "git@github.com:benadamstyles/eslint-config.git",
   "author": "benadamstyles",
