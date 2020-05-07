@@ -4,6 +4,8 @@
  * @type {import('eslint').Linter.Config}
  */
 const config = {
+  extends: './react.js',
+
   plugins: ['react-native'],
 
   globals: {

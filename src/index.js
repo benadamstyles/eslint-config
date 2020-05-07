@@ -146,7 +146,14 @@ const config = {
 
     // https://github.com/jfmengels/eslint-plugin-fp#readme
     'fp/no-mutating-assign': 'warn',
-    'fp/no-mutation': ['warn', {commonjs: true, allowThis: true}],
+    'fp/no-mutation': [
+      'warn',
+      {
+        commonjs: true,
+        allowThis: true,
+        exceptions: [{property: 'defaultProps'}, {property: 'displayName'}],
+      },
+    ],
 
     // https://github.com/babel/eslint-plugin-babel#readme
     'babel/no-invalid-this': 'error',

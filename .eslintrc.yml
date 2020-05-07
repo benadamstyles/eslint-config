@@ -9,3 +9,8 @@ overrides:
 
   - files: ./tests/react.js
     extends: ./src/react.js
+
+  - files: ./tests/react-native.js
+    extends:
+      - ./src/flow.js
+      - ./src/react-native.js
