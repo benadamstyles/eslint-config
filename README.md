@@ -10,7 +10,9 @@ Various eslint configs for my personal use. My approach with all of these is:
 
 > **NOTE:** when extending any of these configs, you will need to set [`parserOptions.ecmaVersion`](https://eslint.org/docs/user-guide/configuring#specifying-parser-options) and [`env`](https://eslint.org/docs/user-guide/configuring#specifying-environments) for your project.
 
-Some of the configs make no sense without another one, in such cases they extend it so you don't need to. Also note that peer dependencies for eslint configs are set in `package.json` so you will get warned about the `peerDependencies` for the React config even if you're not extending it.
+Some of the configs make no sense without another one, in such cases they extend it so you don't need to. Bear in mind that **extend order is important** – for example, you'll need to extend the TypeScript config _after_ the React one so that the TypeScript one can fix any eslint rules that don't work with TS syntax.
+
+Also note that peer dependencies for eslint configs are set in `package.json` so you will get warned about the `peerDependencies` for the React config even if you're not extending it.
 
 - **Base**: [`@benadamstyles/eslint-config`](src/index.js)
 
