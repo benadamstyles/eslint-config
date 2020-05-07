@@ -6,7 +6,7 @@
  */
 const config = {
   extends: [
-    './index.js',
+    './index',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',

@@ -1,12 +1,12 @@
 {
-  "include": ["src", "tests/**/*.ts", "tests/**/*.tsx"],
-  "exclude": ["src/flow.js"],
+  "include": ["*.js", "tests/**/*.ts", "tests/**/*.tsx"],
   "compilerOptions": {
     "moduleResolution": "node",
     "target": "es2020",
     "noEmit": true,
     "allowJs": true,
     "checkJs": true,
-    "strict": true
+    "strict": true,
+    "jsx": "preserve"
   }
 }

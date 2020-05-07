@@ -2,7 +2,7 @@
  * @type {import('eslint').Linter.Config}
  */
 const config = {
-  extends: './src/index.js',
+  extends: './index',
 
   env: {
     node: true,
@@ -10,23 +10,23 @@ const config = {
 
   overrides: [
     {
+      extends: './flow',
       files: './tests/flow.js',
-      extends: './src/flow.js',
     },
 
     {
+      extends: './react',
       files: './tests/react.js',
-      extends: './src/react.js',
     },
 
     {
+      extends: ['./flow', './react-native'],
       files: './tests/react-native.js',
-      extends: ['./src/flow.js', './src/react-native.js'],
     },
 
     {
+      extends: './typescript',
       files: './tests/typescript.ts',
-      extends: './src/typescript.js',
       parserOptions: {
         tsconfigRootDir: __dirname,
         project: './tsconfig.json',
@@ -34,8 +34,8 @@ const config = {
     },
 
     {
+      extends: ['./react', './typescript'],
       files: './tests/typescript.tsx',
-      extends: ['./src/react.js', './src/typescript.js'],
       parserOptions: {
         tsconfigRootDir: __dirname,
         project: './tsconfig.json',

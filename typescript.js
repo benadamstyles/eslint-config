@@ -5,7 +5,7 @@
  */
 const config = {
   extends: [
-    './index.js',
+    './index',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',

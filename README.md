@@ -14,7 +14,7 @@ Some of the configs make no sense without another one, in such cases they extend
 
 Also note that peer dependencies for eslint configs are set in `package.json` so you will get warned about the `peerDependencies` for the React config even if you're not extending it.
 
-- **Base**: [`@benadamstyles/eslint-config`](src/index.js)
+- **Base**: [`@benadamstyles`](src/index.js)
 
   - **TypeScript** (extends Base): [`@benadamstyles/eslint-config/typescript`](src/typescript.js)
 
