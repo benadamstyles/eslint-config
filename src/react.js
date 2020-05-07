@@ -1,4 +1,5 @@
 // https://github.com/yannickcr/eslint-plugin-react#readme
+// https://github.com/evcohen/eslint-plugin-jsx-a11y#readme
 
 /**
  * @type {import('eslint').Linter.Config}
