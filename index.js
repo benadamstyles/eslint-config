@@ -86,7 +86,7 @@ const config = {
 
     // https://eslint.org/docs/rules/#stylistic-issues
     camelcase: ['error', {ignoreDestructuring: true, properties: 'never'}],
-    'new-cap': 'error',
+    'new-cap': ['error', {capIsNew: false}],
     'no-array-constructor': 'error',
     'no-bitwise': 'error',
     'no-lonely-if': 'error',

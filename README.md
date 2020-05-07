@@ -8,7 +8,7 @@ Various eslint configs for my personal use. My approach with all of these is:
 
 ## Available configs and inheritance
 
-> **NOTE:** when extending any of these configs, you will need to set [`parserOptions.ecmaVersion`](https://eslint.org/docs/user-guide/configuring#specifying-parser-options) and [`env`](https://eslint.org/docs/user-guide/configuring#specifying-environments) for your project.
+> **NOTE:** when extending any of these configs, you will need to set [`parserOptions.ecmaVersion`](https://eslint.org/docs/user-guide/configuring#specifying-parser-options) (not required for the TypeScript config as it uses its own parser) and [`env`](https://eslint.org/docs/user-guide/configuring#specifying-environments) for your project.
 
 Some of the configs make no sense without another one, in such cases they extend it so you don't need to. Bear in mind that **extend order is important** – for example, you'll need to extend the TypeScript config _after_ the React one so that the TypeScript one can fix any eslint rules that don't work with TS syntax.
 
