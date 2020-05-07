@@ -4,7 +4,7 @@
  * @type {import('eslint').Linter.Config}
  */
 const config = {
-  extends: ['plugin:flowtype/recommended'],
+  extends: ['./index.js', 'plugin:flowtype/recommended'],
 
   // NOTE: required to understand flow annotation syntax
   parser: 'babel-eslint',
