@@ -27,4 +27,7 @@ jobs:
 
       - run: yarn lint
       - run: yarn typecheck
-      - run: yarn release
+
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: yarn release
