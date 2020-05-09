@@ -43,7 +43,7 @@ const config = {
     'no-alert': 'error',
     'no-caller': 'error',
     'no-constructor-return': 'error',
-    'no-else-return': 'error',
+    'no-else-return': ['error', { allowElseIf: false }],
     'no-empty-function': 'error',
     'no-eval': 'error',
     'no-extend-native': 'error',

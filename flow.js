@@ -26,6 +26,7 @@ const config = {
     'flowtype/no-types-missing-file-annotation': 'error',
     'flowtype/require-readonly-react-props': 'error',
     'flowtype/require-valid-file-annotation': 'error',
+    'flowtype/space-after-type-colon': 'off',
     'flowtype/use-flow-type': 'warn', // NOTE: marks flow types as used
   },
 }
