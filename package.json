@@ -7,6 +7,7 @@
   "main": "index.js",
   "files": [
     "index.js",
+    "node.js",
     "flow.js",
     "react.js",
     "react-native.js",
