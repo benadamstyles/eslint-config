@@ -20,6 +20,7 @@ const config = {
   rules: {
     'flowtype/boolean-style': 'error',
     'flowtype/define-flow-type': 'warn', // NOTE: marks flow types as used
+    'flowtype/generic-spacing': 'off',
     'flowtype/no-mutable-array': 'error',
     'flowtype/no-primitive-constructor-types': 'error',
     'flowtype/no-types-missing-file-annotation': 'error',
