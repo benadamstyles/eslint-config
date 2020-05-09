@@ -25,3 +25,7 @@ Also note that peer dependencies for eslint configs are set in `package.json` so
   - **React** (extends Base): [`@benadamstyles/eslint-config/react`](src/react.js)
 
     - **React Native** (extends React): [`@benadamstyles/eslint-config/react-native`](src/react-native.js)
+
+## Contributing
+
+This package uses [semantic-release](https://semantic-release.gitbook.io/semantic-release/) with the default settings applied, to manage releases.
