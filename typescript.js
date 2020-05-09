@@ -39,7 +39,7 @@ const config = {
     '@typescript-eslint/restrict-plus-operands': 'error',
     '@typescript-eslint/restrict-template-expressions': [
       'error',
-      {allowNumber: true},
+      { allowNumber: true },
     ],
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
     '@typescript-eslint/type-annotation-spacing': 'off',

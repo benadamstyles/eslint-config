@@ -37,7 +37,7 @@ const config = {
     // 'default-case-last': 'error', // TODO: enable in eslint v7
     'default-param-last': 'error',
     'dot-notation': 'error',
-    eqeqeq: ['error', 'always', {null: 'ignore'}],
+    eqeqeq: ['error', 'always', { null: 'ignore' }],
     'grouped-accessor-pairs': 'error',
     'guard-for-in': 'error',
     'no-alert': 'error',
@@ -85,8 +85,8 @@ const config = {
     'no-use-before-define': ['error', 'nofunc'],
 
     // https://eslint.org/docs/rules/#stylistic-issues
-    camelcase: ['error', {ignoreDestructuring: true, properties: 'never'}],
-    'new-cap': ['error', {capIsNew: false}],
+    camelcase: ['error', { ignoreDestructuring: true, properties: 'never' }],
+    'new-cap': ['error', { capIsNew: false }],
     'no-array-constructor': 'error',
     'no-bitwise': 'error',
     'no-lonely-if': 'error',
@@ -100,7 +100,7 @@ const config = {
     'prefer-object-spread': 'error',
 
     // https://eslint.org/docs/rules/#ecmascript-6
-    'no-useless-computed-key': ['error', {enforceForClassMembers: true}],
+    'no-useless-computed-key': ['error', { enforceForClassMembers: true }],
     'no-useless-constructor': 'error',
     'no-useless-rename': 'error',
     'no-var': 'error',
@@ -151,7 +151,7 @@ const config = {
       {
         commonjs: true,
         allowThis: true,
-        exceptions: [{property: 'defaultProps'}, {property: 'displayName'}],
+        exceptions: [{ property: 'defaultProps' }, { property: 'displayName' }],
       },
     ],
 
