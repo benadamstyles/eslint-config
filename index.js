@@ -30,7 +30,17 @@ const config = {
     'accessor-pairs': 'warn',
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
-    'class-methods-use-this': 'warn',
+    'class-methods-use-this': [
+      'warn',
+      {
+        exceptMethods: [
+          // NOTE: React Component methods
+          'shouldComponentUpdate',
+          'componentDidCatch',
+          'componentDidUpdate',
+        ],
+      },
+    ],
     complexity: 'error',
     'consistent-return': 'error',
     'default-case': 'error',
