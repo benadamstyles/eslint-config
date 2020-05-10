@@ -10,6 +10,11 @@ const config = {
 
   overrides: [
     {
+      extends: './node',
+      files: './tests/node.js',
+    },
+
+    {
       extends: './flow',
       files: './tests/flow.js',
     },

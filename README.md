@@ -16,6 +16,8 @@ Also note that peer dependencies for eslint configs are set in `package.json` so
 
 - **Base**: [`@benadamstyles`](src/index.js)
 
+  - **Node** (extends Base): [`@benadamstyles/eslint-config/node`](src/node.js)
+
   - **TypeScript** (extends Base): [`@benadamstyles/eslint-config/typescript`](src/typescript.js)
 
     > **NOTE:** You will need some [extra local settings](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md) when extending the typescript config.
