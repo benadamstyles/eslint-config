@@ -1,3 +1,5 @@
+// @flow
+
 import * as React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
@@ -8,6 +10,7 @@ const styles = StyleSheet.create({
   used: {
     color: 'blue',
   },
+  // eslint-disable-next-line react-native/no-unused-styles
   unused: {
     color: red,
   },
@@ -21,3 +24,13 @@ export const Test = () => (
     </View>
   </>
 )
+
+type Props = $ReadOnly<{|
+  message: string,
+|}>
+
+export class TestPropTypes extends React.Component<Props> {
+  render() {
+    return <p>{this.props.message}</p>
+  }
+}
