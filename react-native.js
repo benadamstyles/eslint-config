@@ -9,7 +9,7 @@ const config = {
   plugins: ['react-native'],
 
   globals: {
-    __DEV__: false,
+    performance: false,
   },
 
   env: {

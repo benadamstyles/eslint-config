@@ -34,3 +34,5 @@ export class TestPropTypes extends React.Component<Props> {
     return <p>{this.props.message}</p>
   }
 }
+
+export const globals = () => __DEV__ && performance.now()
