@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/benadamstyles/eslint-config/compare/v1.3.2...v1.3.3) (2020-05-10)
+
+
+### Bug Fixes
+
+* add missing React Native global `performance` ([9013e2c](https://github.com/benadamstyles/eslint-config/commit/9013e2c0e80b991f43b6e06c856f27db5581bfd8))
+
 ## [1.3.2](https://github.com/benadamstyles/eslint-config/compare/v1.3.1...v1.3.2) (2020-05-10)
 
 
