@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/benadamstyles/eslint-config/compare/v1.3.1...v1.3.2) (2020-05-10)
+
+
+### Bug Fixes
+
+* add render to allowed class methods not using this ([a65beb8](https://github.com/benadamstyles/eslint-config/commit/a65beb8d6ee2bcbc7c2012947a8d78a183da7f28))
+
 ## [1.3.1](https://github.com/benadamstyles/eslint-config/compare/v1.3.0...v1.3.1) (2020-05-10)
 
 
