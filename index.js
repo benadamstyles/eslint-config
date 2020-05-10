@@ -38,6 +38,7 @@ const config = {
           'shouldComponentUpdate',
           'componentDidCatch',
           'componentDidUpdate',
+          'render',
         ],
       },
     ],
