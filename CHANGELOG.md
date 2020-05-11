@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/benadamstyles/eslint-config/compare/v1.3.3...v1.4.0) (2020-05-11)
+
+
+### Features
+
+* **jest:** allow expect().toEqual() ([c5522d9](https://github.com/benadamstyles/eslint-config/commit/c5522d936db1be9264381195656ca9cc03585ea0))
+
 ## [1.3.3](https://github.com/benadamstyles/eslint-config/compare/v1.3.2...v1.3.3) (2020-05-10)
 
 
