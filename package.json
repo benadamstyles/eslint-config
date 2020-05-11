@@ -48,7 +48,7 @@
     "jest": "^26.0.1",
     "prettier": "^2.0.5",
     "react": "^16.13.1",
-    "react-native": "0.59",
+    "react-native": "0.61",
     "semantic-release": "^17.0.7",
     "typescript": "^3.8.3"
   },
