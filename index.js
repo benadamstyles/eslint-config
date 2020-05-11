@@ -134,7 +134,6 @@ const config = {
     'jest/no-if': 'error',
     'jest/no-test-return-statement': 'warn',
     'jest/prefer-spy-on': 'error',
-    'jest/prefer-strict-equal': 'error',
     'jest/prefer-todo': 'warn',
     'jest/valid-title': 'error',
 
