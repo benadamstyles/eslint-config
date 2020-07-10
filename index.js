@@ -23,7 +23,10 @@ const config = {
   rules: {
     // https://eslint.org/docs/rules/#possible-errors
     'no-template-curly-in-string': 'error',
-    // 'no-useless-backreference': 'error', // TODO: enable in eslint v7
+    'no-loss-of-precision': 'error',
+    'no-promise-executor-return': 'error',
+    'no-unreachable-loop': 'error',
+    'no-useless-backreference': 'error',
     'require-atomic-updates': 'error',
 
     // https://eslint.org/docs/rules/#best-practices
@@ -45,7 +48,7 @@ const config = {
     complexity: 'error',
     'consistent-return': 'error',
     'default-case': 'error',
-    // 'default-case-last': 'error', // TODO: enable in eslint v7
+    'default-case-last': 'error',
     'default-param-last': 'error',
     'dot-notation': 'error',
     eqeqeq: ['error', 'always', { null: 'ignore' }],
