@@ -130,6 +130,7 @@ const config = {
 
     // https://github.com/mysticatea/eslint-plugin-eslint-comments#readme
     'eslint-comments/no-unused-disable': 'error',
+    'eslint-comments/require-description': 'warn',
 
     // https://github.com/jest-community/eslint-plugin-jest#readme
     'jest/no-deprecated-functions': 'warn',

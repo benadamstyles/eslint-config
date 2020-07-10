@@ -1,6 +1,8 @@
-/**
- * @type {import('eslint').Linter.Config}
- */
+const rules = {
+  'eslint-comments/require-description': 'off',
+}
+
+/** @type {import('eslint').Linter.Config} */
 const config = {
   extends: './index',
 
@@ -8,25 +10,31 @@ const config = {
     node: true,
   },
 
+  rules,
+
   overrides: [
     {
       extends: './node',
       files: './tests/node.js',
+      rules,
     },
 
     {
       extends: './flow',
       files: './tests/flow.js',
+      rules,
     },
 
     {
       extends: './react',
       files: './tests/react.js',
+      rules,
     },
 
     {
       extends: ['./flow', './react-native'],
       files: './tests/react-native.js',
+      rules,
     },
 
     {
@@ -36,6 +44,7 @@ const config = {
         tsconfigRootDir: __dirname,
         project: './tsconfig.json',
       },
+      rules,
     },
 
     {
@@ -45,6 +54,7 @@ const config = {
         tsconfigRootDir: __dirname,
         project: './tsconfig.json',
       },
+      rules,
     },
   ],
 }
