@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/benadamstyles/eslint-config/compare/v1.5.0...v1.6.0) (2020-07-10)
+
+
+### Features
+
+* **rules:** add new eslint-comments rule requiring directive descriptions ([b90d0be](https://github.com/benadamstyles/eslint-config/commit/b90d0be77fbfd03cb6fa539cb51e738d0f6861e7))
+
 # [1.5.0](https://github.com/benadamstyles/eslint-config/compare/v1.4.0...v1.5.0) (2020-07-10)
 
 
