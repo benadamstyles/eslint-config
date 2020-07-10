@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/benadamstyles/eslint-config/compare/v1.4.0...v1.5.0) (2020-07-10)
+
+
+### Features
+
+* add new rules from latest eslint core ([395db53](https://github.com/benadamstyles/eslint-config/commit/395db538f0f7e2beb713777c3b25ebd6eae12266))
+
 # [1.4.0](https://github.com/benadamstyles/eslint-config/compare/v1.3.3...v1.4.0) (2020-05-11)
 
 
