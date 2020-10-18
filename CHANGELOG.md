@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/benadamstyles/eslint-config/compare/v1.6.0...v2.0.0) (2020-10-18)
+
+
+### Features
+
+* **deps:** bump @typescript-eslint/eslint-plugin to 4.4.1 ([d16728d](https://github.com/benadamstyles/eslint-config/commit/d16728de70bd25b482d22b4387bf5fc155fd42d6))
+* **typescript:** update all [@typescript-eslint](https://github.com/typescript-eslint) packages together ([dd1d087](https://github.com/benadamstyles/eslint-config/commit/dd1d0877a8a133b9e28de57410dea5c03c0627ec))
+
+
+### BREAKING CHANGES
+
+* **deps:** this release introduces new rules for TypeScript projects
+
 # [1.6.0](https://github.com/benadamstyles/eslint-config/compare/v1.5.0...v1.6.0) (2020-07-10)
 
 
