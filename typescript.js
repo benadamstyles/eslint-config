@@ -21,16 +21,25 @@ const config = {
     // NOTE: we turn this off because we have the switch-exhaustiveness-check
     'default-case': 'off',
 
+    // NOTE: we turn these off because we use their equivalent extension rules below
+    'no-use-before-define': 'off',
+    'no-loop-func': 'off',
+
+    '@typescript-eslint/consistent-type-imports': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/member-delimiter-style': 'off',
     '@typescript-eslint/method-signature-style': 'error',
     '@typescript-eslint/no-base-to-string': 'error',
+    '@typescript-eslint/no-implicit-any-catch': 'error',
     '@typescript-eslint/no-invalid-void-type': 'error',
+    '@typescript-eslint/no-loop-func': 'error',
     '@typescript-eslint/no-unnecessary-type-arguments': 'error',
     '@typescript-eslint/no-unsafe-assignment': 'error',
     '@typescript-eslint/no-unsafe-call': 'error',
     '@typescript-eslint/no-unsafe-member-access': 'error',
     '@typescript-eslint/no-unsafe-return': 'error',
+    '@typescript-eslint/no-use-before-define': 'error',
     '@typescript-eslint/prefer-as-const': 'error',
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-function-type': 'error',
