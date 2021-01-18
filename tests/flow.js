@@ -9,3 +9,5 @@ a.b = 7
 const x: number = 5
 
 console.log(x)
+
+export const value = await Promise.resolve(true)

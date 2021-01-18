@@ -28,6 +28,10 @@ Also note that peer dependencies for eslint configs are set in `package.json` so
 
     - **React Native** (extends React): [`@benadamstyles/eslint-config/react-native`](src/react-native.js)
 
+### Top-level `await`
+
+Top-level `await` (TLA) is available in Node v14+, but not currently supported by eslint. To use it with this eslint config, you will need to extend the `flow` config (because that uses `@babel/eslint-parser` which _does_ support TLA) and make sure you have the `@babel/plugin-syntax-top-level-await` plugin in your own project's Babel config.
+
 ## Contributing
 
 This package uses [semantic-release](https://semantic-release.gitbook.io/semantic-release/) with the default settings applied, to manage releases.
