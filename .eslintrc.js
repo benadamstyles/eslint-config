@@ -21,6 +21,9 @@ const config = {
     {
       extends: './flow',
       files: './tests/flow.js',
+      env: {
+        es2020: true,
+      },
       rules,
     },
 

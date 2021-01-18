@@ -1,6 +1,7 @@
 {
-  "include": ["*.js", "tests/**/*.ts", "tests/**/*.tsx"],
+  "include": ["./*.js", "tests/**/*.ts", "tests/**/*.tsx"],
   "compilerOptions": {
+    "module": "ESNext",
     "moduleResolution": "node",
     "target": "es2020",
     "noEmit": true,

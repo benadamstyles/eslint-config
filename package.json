@@ -17,7 +17,7 @@
   "author": "benadamstyles",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint . --report-unused-disable-directives --ext .js,.ts,.tsx",
+    "lint": "eslint . --report-unused-disable-directives --ext .js,.mjs,.ts,.tsx",
     "typecheck": "tsc",
     "find": "eslint-find-rules --verbose",
     "release": "semantic-release",
@@ -26,6 +26,9 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/eslint-parser": "^7.12.1",
+    "@babel/plugin-syntax-top-level-await": "^7.12.1",
+    "@babel/preset-flow": "^7.12.1",
+    "@babel/preset-react": "^7.12.10",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "@types/eslint": "^7.2.0",
