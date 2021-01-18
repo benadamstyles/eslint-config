@@ -1,5 +1,8 @@
-// eslint-disable-next-line no-var
+// eslint-disable-next-line no-var, no-unused-vars -- testing
 var x = 1
 
-// eslint-disable-next-line fp/no-mutation
-x.y = 7
+const y = {}
+
+/* eslint-disable fp/no-mutation -- testing */
+y.a = 7
+/* eslint-enable fp/no-mutation */
