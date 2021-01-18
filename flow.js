@@ -7,7 +7,7 @@ const config = {
   extends: ['./index', 'plugin:flowtype/recommended'],
 
   // NOTE: required to understand flow annotation syntax
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
 
   plugins: ['flowtype'],
 

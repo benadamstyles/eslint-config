@@ -1,5 +1,5 @@
 diff --git a/node_modules/@types/eslint/index.d.ts b/node_modules/@types/eslint/index.d.ts
-index f0aa090..4c584e3 100644
+index 9083fd6..5cda58f 100644
 --- a/node_modules/@types/eslint/index.d.ts
 +++ b/node_modules/@types/eslint/index.d.ts
 @@ -257,7 +257,7 @@ export namespace Rule {
