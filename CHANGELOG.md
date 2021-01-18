@@ -1,3 +1,16 @@
+# [3.0.0](https://github.com/benadamstyles/eslint-config/compare/v2.1.0...v3.0.0) (2021-01-18)
+
+
+### Features
+
+* **deps:** replace babel-eslint parser with @babel/eslint-parser ([f87fc68](https://github.com/benadamstyles/eslint-config/commit/f87fc6873f3a9855e53e40c628132b7ac7dfc52d))
+
+
+### BREAKING CHANGES
+
+* **deps:** This requires replacing the dependency and making sure its peerDependencies (@babel/core)
+are installed in your own project.
+
 # [2.1.0](https://github.com/benadamstyles/eslint-config/compare/v2.0.0...v2.1.0) (2021-01-18)
 
 
