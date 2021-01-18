@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/benadamstyles/eslint-config/compare/v2.0.0...v2.1.0) (2021-01-18)
+
+
+### Features
+
+* **rules:** don't require description on eslint-enable comments ([07b3c52](https://github.com/benadamstyles/eslint-config/commit/07b3c52edfd6b6ccd6126439a00bdab983598726))
+
 # [2.0.0](https://github.com/benadamstyles/eslint-config/compare/v1.6.0...v2.0.0) (2020-10-18)
 
 
