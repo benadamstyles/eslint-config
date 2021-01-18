@@ -1,3 +1,4 @@
+/** @type {{ 'eslint-comments/require-description': 'off' }} */
 const rules = {
   'eslint-comments/require-description': 'off',
 }
@@ -9,8 +10,6 @@ const config = {
   env: {
     node: true,
   },
-
-  rules,
 
   overrides: [
     {
