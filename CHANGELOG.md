@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/benadamstyles/eslint-config/compare/v3.0.0...v3.0.1) (2021-02-26)
+
+
+### Bug Fixes
+
+* **deps-dev:** don't use patch-package ([c404116](https://github.com/benadamstyles/eslint-config/commit/c4041161b8a0c8b5840d77fa4d7ea81905607f18))
+
 # [3.0.0](https://github.com/benadamstyles/eslint-config/compare/v2.1.0...v3.0.0) (2021-01-18)
 
 
