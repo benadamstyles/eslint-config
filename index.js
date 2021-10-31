@@ -156,7 +156,7 @@ const config = {
     'import/no-unused-modules': 'error',
     'import/first': 'error',
     'import/no-duplicates': 'error',
-    'import/extensions': 'error',
+    'import/extensions': ['error', { json: 'always' }],
     'import/order': 'warn',
     'import/newline-after-import': 'error',
     'import/no-named-default': 'error',
