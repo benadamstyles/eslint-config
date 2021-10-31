@@ -1,3 +1,6 @@
+// eslint-disable-next-line no-unused-vars -- testing
+import { key } from './test.json'
+
 // eslint-disable-next-line no-var, no-unused-vars -- testing
 var x = 1
 
