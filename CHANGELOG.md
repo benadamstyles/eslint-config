@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/benadamstyles/eslint-config/compare/v3.0.1...v4.0.0) (2021-10-31)
+
+
+### Bug Fixes
+
+* **rules:** Require '.json' extension when importing json ([#440](https://github.com/benadamstyles/eslint-config/issues/440)) ([70e758e](https://github.com/benadamstyles/eslint-config/commit/70e758e58b67885d3ad1314744489317e0e9fad8))
+
+
+### BREAKING CHANGES
+
+* **rules:** JSON imports with no extension will now be reported as errors.
+
 ## [3.0.1](https://github.com/benadamstyles/eslint-config/compare/v3.0.0...v3.0.1) (2021-02-26)
 
 
