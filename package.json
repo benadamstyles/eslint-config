@@ -49,7 +49,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^4.0.0",
     "eslint-plugin-react-native": "^3.8.1",
-    "jest": "^26.0.1",
+    "jest": "^28.1.1",
     "prettier": "^2.0.5",
     "react": "^17.0.1",
     "react-native": "0.61",
